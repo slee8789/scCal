@@ -11,6 +11,10 @@ import UIKit
 @IBDesignable
 class RoundButton: UIButton {
 
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    
     @IBInspectable var cornerRadius : CGFloat = 0 {
         didSet {
             self.layer.cornerRadius = cornerRadius
